@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_phone_direct_caller/flutter_phone_direct_caller.dart';
-import 'package:re/ui/home/stock_monitoring_screen.dart';
 
 import '../home/self mangement of invntory/self_management_of_inventory_screen.dart';
+import '../home/stock_monitoring_screen.dart';
 
 
 class HomeScreen extends StatelessWidget {
@@ -95,7 +95,7 @@ class HomeScreen extends StatelessWidget {
                     ],
                   ),
                   Container(
-                    child: Image.asset('image/SELF.png', width: 63),
+                    child: Image.asset('image/SELF.png', width: 56),
                   )
                 ],
               ),
@@ -188,7 +188,7 @@ class HomeScreen extends StatelessWidget {
                         margin: EdgeInsets.symmetric(horizontal: 15),
                         child: Text("Analysis of your invntory\ncan be found",
                             style:
-                                TextStyle(fontSize: 14, color: Colors.white30)),
+                            TextStyle(fontSize: 14, color: Colors.white30)),
                       ),
                       Container(
                         margin: EdgeInsets.only(top: 35, left: 5),
@@ -204,7 +204,7 @@ class HomeScreen extends StatelessWidget {
                     margin: EdgeInsets.all(5),
                     child: Image.asset(
                       'image/analytics.png',
-                      width: 113,
+                      width: 110,
                     ),
                   )
                 ],

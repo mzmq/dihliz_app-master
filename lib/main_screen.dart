@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:re/ui/main/home_screen.dart';
-import 'package:re/ui/main/notification_screen.dart';
-import 'package:re/ui/main/profile_screen.dart';
-import 'package:re/ui/main/transaction_screen.dart';
+
+import 'main/home_screen.dart';
+import 'main/notification_screen.dart';
+import 'main/profile_screen.dart';
+import 'main/transaction_screen.dart';
+
 
 class MainScreen extends StatefulWidget {
   const MainScreen({Key? key}) : super(key: key);

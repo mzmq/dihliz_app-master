@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:re/provider/transfer_provider.dart';
+
+import '../../../provider/transfer_provider.dart';
 
 class ViewDetailsTransferScreen extends StatefulWidget {
   String id;
@@ -32,7 +33,7 @@ class _ViewDetailsTransferScreenState extends State<ViewDetailsTransferScreen> {
         child: Column(
           children: [
             Container(
-              margin: EdgeInsets.symmetric(vertical: 20, horizontal: 7),
+              margin: EdgeInsets.symmetric(vertical: 20, horizontal: 2),
               decoration: BoxDecoration(
                   color: Colors.white, borderRadius: BorderRadius.circular(20)),
               child: Row(

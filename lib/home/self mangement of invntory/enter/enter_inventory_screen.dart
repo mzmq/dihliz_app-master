@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:re/ui/home/self%20mangement%20of%20invntory/enter/add_stock_screen.dart';
 
 import '../../../../model/inventory/inventory_provider.dart';
+import 'add_stock_screen.dart';
 
 
 

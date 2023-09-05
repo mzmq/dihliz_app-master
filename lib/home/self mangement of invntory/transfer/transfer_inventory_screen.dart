@@ -1,9 +1,9 @@
+import 'package:dihliz_app/home/self%20mangement%20of%20invntory/transfer/view_details_transfer_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:re/provider/transfer_provider.dart';
-import 'package:re/provider/withdrawal_provider.dart';
-import 'package:re/ui/home/self%20mangement%20of%20invntory/transfer/view_details_transfer_screen.dart';
-import 'package:re/ui/home/self%20mangement%20of%20invntory/withdrawd/view__details._withdraw_screen.dart';
+
+import '../../../provider/transfer_provider.dart';
+
 
 class TransferInventoryScreen extends StatefulWidget {
   const TransferInventoryScreen({Key? key}) : super(key: key);
@@ -83,7 +83,7 @@ class _TransferInventoryScreenState extends State<TransferInventoryScreen> {
                   ],
                 ),
                 SizedBox(
-                  width: 95,
+                  width: 89,
                   child: CircleAvatar(
                     radius: 40,
                     backgroundImage: AssetImage(value.listTransfer[index].imageUrl),

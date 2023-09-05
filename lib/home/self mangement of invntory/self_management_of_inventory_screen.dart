@@ -1,6 +1,7 @@
+import 'package:dihliz_app/home/self%20mangement%20of%20invntory/transfer/transfer_inventory_screen.dart';
+import 'package:dihliz_app/home/self%20mangement%20of%20invntory/withdrawd/withdrawal_of_inventory_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:re/ui/home/self%20mangement%20of%20invntory/transfer/transfer_inventory_screen.dart';
-import 'package:re/ui/home/self%20mangement%20of%20invntory/withdrawd/withdrawal_of_inventory_screen.dart';
+
 import 'enter/enter_inventory_screen.dart';
 import 'my stock/my_stock_screen.dart';
 
@@ -151,7 +152,7 @@ class _SelfManagementOfInventoryScreenState extends State<SelfManagementOfInvent
                     Container(
                       child: Image.asset(
                           'image/Withdrawal of inventoryWithdrawal of inventory.png',
-                          width: 106),
+                          width: 100),
                     )
                   ],
                 ),
@@ -280,7 +281,7 @@ class _SelfManagementOfInventoryScreenState extends State<SelfManagementOfInvent
                     margin: EdgeInsets.all(5),
                     child: Image.asset(
                       'image/ My stock White.png',
-                      width: 68,
+                      width: 61,
                     ),
                   )
                 ],

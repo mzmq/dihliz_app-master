@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:re/provider/stock_provider.dart';
+
+import '../../../provider/stock_provider.dart';
 
 class MyStockScreen extends StatefulWidget {
   const MyStockScreen({Key? key}) : super(key: key);

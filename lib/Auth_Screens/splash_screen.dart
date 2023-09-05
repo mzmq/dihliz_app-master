@@ -4,7 +4,7 @@ import 'package:easy_splash_screen/easy_splash_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../../../../../../Desktop/dihliz_app-master/lib/Auth_Screens/firstpage_screen.dart';
+import 'firstpage_screen.dart';
 
 
 class SplashScreen extends StatefulWidget {

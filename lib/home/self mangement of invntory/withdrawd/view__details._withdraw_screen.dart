@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:re/provider/withdrawal_provider.dart';
+
+import '../../../provider/withdrawal_provider.dart';
 
 class ViewDetailsWithdrawScreen extends StatefulWidget {
   final String id;

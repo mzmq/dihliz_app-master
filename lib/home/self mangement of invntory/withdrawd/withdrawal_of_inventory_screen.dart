@@ -1,7 +1,8 @@
+import 'package:dihliz_app/home/self%20mangement%20of%20invntory/withdrawd/view__details._withdraw_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:re/provider/withdrawal_provider.dart';
-import 'package:re/ui/home/self%20mangement%20of%20invntory/withdrawd/view__details._withdraw_screen.dart';
+
+import '../../../provider/withdrawal_provider.dart';
 
 class WithdrawalOfInventoryScreen extends StatefulWidget {
   const WithdrawalOfInventoryScreen({Key? key}) : super(key: key);
@@ -88,7 +89,7 @@ class _WithdrawalOfInventoryScreenState extends State<WithdrawalOfInventoryScree
                             ],
                           ),
                           SizedBox(
-                            width: 102,
+                            width: 96,
                             child: CircleAvatar(
                               radius: 40,
                               backgroundImage: AssetImage(
